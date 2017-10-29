@@ -12,4 +12,30 @@ The events for all HTML elements
 In other words: ** The HTML DOM is a standard for how to get, change, add, or delete HTML elements. **
 
 
+1. Javascript library
+2. Describe views (HTML elements) based on states
+3. React mount views in borwser's DOM and automatically updates when original state changes.
 
+
+Why React :
+1. HTML : present static data
+we can't write dynamic HTML content based on data.(We don't have loops, if statements, or variables in HTML)
+
+When the data we represent with HTML is changed, we need to manually update the HTML to reflect that change. 
+For example, when that small business for which you built a website gets a new phone number, it’ll be time to drop into an HTML editor,
+make that change, and then upload the new HTML files to the server.
+
+if change is more frequent though, for example, if the business now wants to feature a different product on the home page every hour
+HTML is not enough.
+
+Solution 1
+JSP and PHP :
+Use special tags that will act like loops and conditionals when we need them. JSP and PHP are examples of this.
+
+ AJAX: JavaScript became a standard language that is supported in all browsers, and someone invented AJAX, 
+ which allowed us to ask servers questions in the background of a webpage.
+ 
+ Javascript:
+ We realized that we could be more efficient in the way we represent our data. 
+ Instead of preparing the HTML server-side and shipping it ready to the client, we can send just the data to the client,
+ and we'll have the fancy, smart browsers prepare the HTML themselves. JavaScript can do that.
